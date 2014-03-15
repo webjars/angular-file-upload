@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-file-upload</artifactId>
-    <version>1.2.8</version>
+    <version>1.2.8-SNAPSHOT</version>
     <name>angular-file-upload</name>
     <description>WebJar for angular-file-upload</description>
     <url>https://github.com/danialfarid/angular-file-upload/</url>
