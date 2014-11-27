@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-file-upload</artifactId>
-    <version>1.6.13-SNAPSHOT</version>
+    <version>1.6.12-1-SNAPSHOT</version>
     <name>angular-file-upload</name>
     <description>WebJar for angular-file-upload</description>
     <url>https://github.com/danialfarid/angular-file-upload/</url>
@@ -26,18 +26,16 @@
                 "paths": {
                     "angular-file-upload": "angular-file-upload",
                     "angular-file-upload-shim": "angular-file-upload-shim",
-                    "angular-file-upload.min": "angular-file-upload.min",
-                    "angular-file-upload-shim.min": "angular-file-upload-shim.min",
+                    "angular-file-upload-min": "angular-file-upload.min",
+                    "angular-file-upload-shim-min": "angular-file-upload-shim.min",
                     "angular-file-upload-html5-shim": "angular-file-upload-html5-shim",
-                    "angular-file-upload-html5-shim.min": "angular-file-upload-html5-shim.min"
+                    "angular-file-upload-html5-shim-min": "angular-file-upload-html5-shim.min"
                 },
                 "shim": {
                     "angular-file-upload": [ "angular" ],
-                    "angular-file-upload-shim": [ "angular" ],
-                    "angular-file-upload.min": [ "angular" ],
-                    "angular-file-upload-shim.min": [ "angular" ],
+                    "angular-file-upload-min": [ "angular" ],
                     "angular-file-upload-html5-shim": [ "angular" ],
-                    "angular-file-upload-html5-shim.min": [ "angular" ]
+                    "angular-file-upload-html5-shim-min": [ "angular" ]
                 }
             }
         </requirejs>
